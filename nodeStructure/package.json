@@ -1,0 +1,27 @@
+{
+  "name": "nodestructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "router": "^1.3.7",
+    "web3": "^1.7.3"
+  }
+}
